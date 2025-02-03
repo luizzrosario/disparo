@@ -56,8 +56,8 @@
       {
         "type": "wokwi-pushbutton",
         "id": "btn1",
-        "top": -41.8,
-        "left": -134.4,
+        "top": -22.6,
+        "left": -144,
         "attrs": { "color": "red", "label": "A" }
       }
     ],
@@ -71,8 +71,8 @@
       [ "pico:GND.4", "led1:C", "black", [ "h-9.6", "v48.04", "h-163.2", "v-19.2" ] ],
       [ "pico:GND.4", "led2:C", "black", [ "h-9.6", "v48.04", "h-163.2", "v-67.2" ] ],
       [ "pico:GND.4", "led3:C", "black", [ "h-9.6", "v48.04", "h-163.2", "v-115.2" ] ],
-      [ "pico:GP5", "btn1:2.r", "red", [ "h0" ] ],
-      [ "pico:GND.1", "btn1:1.r", "black", [ "h0" ] ]
+      [ "btn1:1.r", "pico:GP5", "red", [ "h29", "v9.6" ] ],
+      [ "pico:GND.2", "btn1:2.r", "black", [ "h0" ] ]
     ],
     "dependencies": {}
   }
